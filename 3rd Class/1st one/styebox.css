@@ -1,0 +1,20 @@
+*{
+   margin : 0;
+   padding: 0;
+   color: white; 
+}
+
+#navbar {
+   height: 60 px;
+   background-color: rgba (255, 0, 0, 0);
+
+     
+}
+button {
+   background-color: chocolate;
+}
+
+a{
+   margin-right: 230px;
+   text-decoration: none;
+}
