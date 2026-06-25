@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+</head>
+<body>
+
+<center><h1>Online Job Application Form</h1></center>
+
+<form method="post">
+
+<fieldset>
+    <legend>Personal Information</legend>
+
+<label>Full Name:</label><br>
+<input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
+
+<label>National ID Number:</label><br>
+<input type="text" name="nid" placeholder="Enter your NID number" required><br><br>
+
+<label>Email Address:</label><br>
+<input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+<label>Phone Number:</label><br>
+<input type="tel" name="phone" placeholder="Enter your phone number" required><br><br>
+
+<label>Date of Birth:</label><br>
+<input type="date" name="dob" required><br><br>
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Job Information</legend>
+
+<label>Position Applied For:</label><br>
+<select name="position">
+    <option>Select a position</option>
+    <option selected>Software Developer</option>
+    <option>Web Designer</option>
+    <option>Network Engineer</option>
+    <option>Database Administrator</option>
+    <option>IT Support Officer</option>
+</select>
+
+<br><br>
+
+<label>Experience Level:</label><br>
+<select name="experience">
+    <option>Select experience level</option>
+    <option selected>Fresher</option>
+    <option>1-2 Years</option>
+    <option>3-5 Years</option>
+    <option>More Than 5 Years</option>
+</select>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Technical Skills</legend>
+
+<input type="checkbox" name="skill" value="HTML"> HTML<br>
+<input type="checkbox" name="skill" value="CSS"> CSS<br>
+<input type="checkbox" name="skill" value="JavaScript"> JavaScript<br>
+<input type="checkbox" name="skill" value="Python"> Python<br>
+<input type="checkbox" name="skill" value="SQL"> SQL
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Educational Information</legend>
+
+<label>Highest Qualification:</label><br>
+<input type="text" name="qualification" placeholder="Enter your qualification" required><br><br>
+
+<label>University/College Name:</label><br>
+<input type="text" name="university" placeholder="Enter your university name" required><br><br>
+
+<label>Graduation Year:</label><br>
+<input type="number" name="year" placeholder="Graduation year" required>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Additional Information</legend>
+
+<label>Upload Resume/CV:</label><br>
+<input type="file" name="resume"><br><br>
+
+<label>Cover Letter:</label><br>
+<textarea name="coverletter" rows="5" cols="40" maxlength="300" placeholder="Write your cover letter"></textarea><br><br>
+
+<label>Current Address:</label><br>
+<textarea name="address" rows="4" cols="40" placeholder="Enter your address"></textarea>
+
+</fieldset>
+
+<br>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
